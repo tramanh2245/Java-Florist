@@ -1,0 +1,91 @@
+﻿.profile-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 24px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.profile-header {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 16px;
+}
+
+.profile-loading,
+.profile-error {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.1rem;
+    color: #6b7280;
+}
+
+.profile-error {
+    color: #b91c1c;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Khoảng cách giữa các hàng */
+}
+
+.detail-row {
+    display: flex;
+    padding: 12px;
+    background-color: #f9fafb;
+    border-radius: 6px;
+    border: 1px solid #f3f4f6;
+}
+
+.detail-row-label {
+    font-weight: 600;
+    color: #374151;
+    width: 150px; /* Cố định chiều rộng của nhãn */
+    flex-shrink: 0;
+}
+
+.detail-row-value {
+    color: #1f2937;
+    word-break: break-all; /* Ngăn email dài phá vỡ layout */
+}
+
+.profile-actions {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between; /* Đẩy 2 nút ra 2 phía */
+    align-items: center;
+}
+
+.btn-action {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; /* Cho thẻ Link */
+    font-weight: 500;
+}
+
+.btn-logout {
+    background-color: #dc3545; /* Đỏ */
+}
+
+    .btn-logout:hover {
+        background-color: #c82333;
+    }
+
+.btn-change-password {
+    background-color: #007bff; /* Xanh */
+}
+
+    .btn-change-password:hover {
+        background-color: #0069d9;
+    }

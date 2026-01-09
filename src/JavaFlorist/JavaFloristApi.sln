@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaFloristApi", "JavaFloristApi\JavaFloristApi.csproj", "{477AE29D-5F3A-CB76-9289-C273C3B834E0}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "JavaFloristReact", "JavaFloristReact\JavaFloristReact.esproj", "{2BE5D8CA-9529-799C-A27C-2E90F334F198}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477AE29D-5F3A-CB76-9289-C273C3B834E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477AE29D-5F3A-CB76-9289-C273C3B834E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477AE29D-5F3A-CB76-9289-C273C3B834E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477AE29D-5F3A-CB76-9289-C273C3B834E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE5D8CA-9529-799C-A27C-2E90F334F198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE5D8CA-9529-799C-A27C-2E90F334F198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE5D8CA-9529-799C-A27C-2E90F334F198}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2BE5D8CA-9529-799C-A27C-2E90F334F198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE5D8CA-9529-799C-A27C-2E90F334F198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE5D8CA-9529-799C-A27C-2E90F334F198}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95C8086A-DDD9-4F7C-AF5F-2EA2F5D675B2}
+	EndGlobalSection
+EndGlobal

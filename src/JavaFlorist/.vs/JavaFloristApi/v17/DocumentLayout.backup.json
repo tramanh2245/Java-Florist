@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HK2\\JavaFlorist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|d:\\hk2\\javaflorist\\javafloristapi\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|solutionrelative:javafloristapi\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|d:\\hk2\\javaflorist\\javafloristapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|solutionrelative:javafloristapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|d:\\hk2\\javaflorist\\javafloristapi\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|solutionrelative:javafloristapi\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|d:\\hk2\\javaflorist\\javafloristapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|solutionrelative:javafloristapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|d:\\hk2\\javaflorist\\javafloristapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|solutionrelative:javafloristapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|d:\\hk2\\javaflorist\\javafloristapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|solutionrelative:javafloristapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|d:\\hk2\\javaflorist\\javafloristapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477AE29D-5F3A-CB76-9289-C273C3B834E0}|JavaFloristApi\\JavaFloristApi.csproj|solutionrelative:javafloristapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "JavaFloristApi\\Services\\EmailService.cs",
+              "ToolTip": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Services\\EmailService.cs",
+              "RelativeToolTip": "JavaFloristApi\\Services\\EmailService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:27:46.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "JavaFloristApi\\Services\\IEmailService.cs",
+              "ToolTip": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Services\\IEmailService.cs",
+              "RelativeToolTip": "JavaFloristApi\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwAwAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:27:36.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "JavaFloristApi\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "JavaFloristApi\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:41:42.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "JavaFloristApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "JavaFloristApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAUwB0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:26:02.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "JavaFloristApi\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "JavaFloristApi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:03:30.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "JavaFloristApi\\Data\\SeedData.cs",
+              "ToolTip": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\Data\\SeedData.cs",
+              "RelativeToolTip": "JavaFloristApi\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:22:11.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\appsettings.json",
+              "RelativeDocumentMoniker": "JavaFloristApi\\appsettings.json",
+              "ToolTip": "D:\\HK2\\JavaFlorist\\JavaFloristApi\\appsettings.json",
+              "RelativeToolTip": "JavaFloristApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-07T19:57:59.531Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

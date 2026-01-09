@@ -1,0 +1,230 @@
+.partner-orders-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Loading & Empty States */
+.loading-state, .empty-state {
+    text-align: center;
+    padding: 60px;
+    color: #6b7280;
+    background: #f9fafb;
+    border-radius: 12px;
+    border: 1px dashed #e5e7eb;
+    font-size: 1.1rem;
+}
+
+/* --- TABS --- */
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    padding: 10px 24px;
+    border: 1px solid #e5e7eb;
+    background-color: white;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #6b7280;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+.tab-btn:hover { background-color: #f3f4f6; color: #374151; }
+
+.tab-btn.active {
+    background-color: #3b82f6;
+    color: white;
+    border-color: #3b82f6;
+    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+}
+.tab-btn.active.processing { background-color: #d97706; border-color: #d97706; }
+.tab-btn.active.completed { background-color: #15803d; border-color: #15803d; }
+.tab-btn.active.cancelled { background-color: #b91c1c; border-color: #b91c1c; }
+
+/* --- ORDER CARD (Style giống MyOrders) --- */
+.order-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+/* Header */
+.order-header {
+    background-color: #f8fafc;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.header-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.right {
+    display: flex;
+    gap: 16px; /* khoảng cách 2 div bên phải */
+}
+.header-item { font-size: 0.9rem; color: #64748b; }
+.header-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #94a3b8;
+    margin-bottom: 4px;
+}
+.header-value { font-weight: 600; color: #334155; }
+
+/* Body (Grid 2 cột) */
+.order-body {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 0;
+}
+@media (max-width: 768px) { .order-body { grid-template-columns: 1fr; } }
+
+/* Cột Trái: Sản phẩm */
+.order-items-section {
+    padding: 24px;
+    border-right: 1px solid #e5e7eb;
+}
+.order-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed #e5e7eb;
+}
+.order-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+
+.item-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: #f3f4f6;
+    border: 1px solid #f1f5f9;
+}
+.item-info h4 { margin: 0 0 4px 0; font-size: 1rem; color: #1e293b; }
+.item-meta { font-size: 0.85rem; color: #6b7280; }
+.item-price { font-weight: 600; color: #db2777; }
+
+/* Cột Phải: Thông tin khách hàng (Cho Partner) */
+.order-info-section {
+    padding: 24px;
+    background-color: #ffffff;
+}
+
+.info-group { margin-bottom: 16px; }
+.info-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #9ca3af;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #f3f4f6;
+    padding-bottom: 4px;
+}
+.info-text { font-size: 0.95rem; color: #334155; line-height: 1.5; }
+.info-highlight { color: #0f172a; font-weight: 600; font-size: 1.1rem; }
+
+/* --- ACTIONS FOOTER (Riêng cho Partner) --- */
+.order-footer-actions {
+    padding: 16px 24px;
+    border-top: 1px solid #e5e7eb;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: space-between; /* 2 bên */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.status-select {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #d1d5db;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+/* Màu select */
+.status-select.Assigned { color: #4338ca; border-color: #c7d2fe; background-color: #e0e7ff; }
+.status-select.Delivering { color: #c2410c; border-color: #fed7aa; background-color: #ffedd5; }
+.status-select.Completed { color: #15803d; border-color: #bbf7d0; background-color: #dcfce7; }
+.status-select.Cancelled { color: #b91c1c; border-color: #fecaca; background-color: #fee2e2; }
+
+.status-locked {
+    padding: 6px 12px;
+    background-color: #f3f4f6;
+    color: #6b7280;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px solid #e5e7eb;
+}
+
+.btn-edit-info {
+    padding: 8px 16px;
+    background-color: white;
+    color: #374151;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-edit-info:hover {
+    background-color: #f3f4f6;
+    border-color: #9ca3af;
+}
+
+/* Modal CSS (Giữ nguyên hoặc chỉnh lại chút xíu) */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+.modal-content {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.modal-header { font-size: 1.25rem; font-weight: bold; margin-bottom: 20px; }
+.input-group label { display: block; margin-bottom: 6px; font-weight: 500; color: #4b5563; }
+.input-field { width: 100%; padding: 10px; border: 1px solid #d1d5db; border-radius: 6px; }
+.modal-actions { display: flex; justify-content: flex-end; gap: 12px; margin-top: 24px; }
+.btn-save { background-color: #2563eb; color: white; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; }
+.btn-cancel { background-color: white; color: #4b5563; border: 1px solid #d1d5db; padding: 8px 20px; border-radius: 6px; cursor: pointer; }

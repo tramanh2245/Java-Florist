@@ -1,0 +1,85 @@
+﻿/* ----- Dùng chung cho trang Chi Tiết User ----- */
+.detail-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.detail-header {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 0;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #e9ecef;
+}
+
+.detail-row {
+    display: flex;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.detail-row-label {
+    width: 180px;
+    font-weight: 600;
+    color: #6b7280;
+    flex-shrink: 0; /* Không co lại */
+}
+
+.detail-row-value {
+    color: #111827;
+    word-break: break-all;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #3b82f6;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.back-btn:hover {
+    color: #2563eb;
+}
+
+/* Badge role trong phần detail */
+.detail-row-value .role-badge {
+    display: inline-block;
+    background-color: #e5e7eb;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-right: 4px;
+    color: #495057;
+}
+
+.detail-status-locked {
+    color: #dc3545;
+    font-weight: bold;
+}
+.detail-status-active {
+    color: #198754;
+    font-weight: bold;
+}

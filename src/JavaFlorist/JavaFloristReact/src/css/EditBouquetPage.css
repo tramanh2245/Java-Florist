@@ -1,0 +1,239 @@
+﻿.edit-bouquet-form-container {
+    background-color: #f9fafb;
+    min-height: 100vh;
+    padding: 32px;
+}
+
+.edit-bouquet-form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* ----- Header Form ----- */
+.form-header {
+    padding: 24px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+    .form-header h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #111827;
+        margin: 0;
+    }
+
+    .form-header p {
+        margin: 4px 0 0 0;
+        font-size: 0.875rem;
+        color: #6b7280;
+    }
+
+/* ----- Body Form ----- */
+.form-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Bố cục 2 cột */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+    .form-group label {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: #374151;
+    }
+
+/* Style chung cho input, select, textarea */
+.form-input,
+.form-select,
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+    .form-input:focus,
+    .form-select:focus,
+    .form-textarea:focus {
+        outline: none;
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 2px #bfdbfe;
+    }
+
+/* ----- Vùng Upload MỚI (Copy từ Add) ----- */
+.upload-dropzone {
+    border: 2px dashed #d1d5db;
+    border-radius: 6px;
+    padding: 24px;
+    text-align: center;
+    background-color: #f9fafb;
+}
+
+    .upload-dropzone label {
+        color: #3b82f6;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+        .upload-dropzone label:hover {
+            color: #2563eb;
+        }
+
+    .upload-dropzone input[type="file"] {
+        display: none;
+    }
+
+    .upload-dropzone p {
+        font-size: 0.875rem;
+        color: #6b7280;
+        margin: 4px 0 0 0;
+    }
+
+/* ----- Vùng Preview (Cả ảnh CŨ và MỚI) ----- */
+.preview-container {
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background-color: #f9fafb;
+}
+
+.preview-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.preview-item {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+    .preview-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+/* Nút Xóa ảnh */
+.preview-remove-btn {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .preview-remove-btn:hover {
+        background-color: #dc2626;
+    }
+
+/* Badge ảnh chính */
+.preview-item .main-image-badge {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background-color: #10b981;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+}
+
+
+/* ----- Footer (Nút Save) ----- */
+.form-footer {
+    padding: 24px;
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.btn-save {
+    padding: 10px 24px;
+    background-color: #22c55e;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .btn-save:hover {
+        background-color: #16a34a;
+    }
+
+    .btn-save:disabled {
+        background-color: #d1d5db;
+        cursor: not-allowed;
+    }
+
+.btn-cancel {
+    padding: 10px 24px;
+    background-color: #ffffff;
+    color: #374151;
+    font-weight: 600;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .btn-cancel:hover {
+        background-color: #f9fafb;
+    }
+
+/* Lỗi & Loading */
+.error-message {
+    padding: 12px;
+    background-color: #fee2e2;
+    color: #b91c1c;
+    border-radius: 6px;
+    font-size: 0.875rem;
+}
+
+.loading-message {
+    padding: 24px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6b7280;
+}

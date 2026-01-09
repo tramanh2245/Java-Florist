@@ -1,0 +1,90 @@
+﻿/* Dùng chung cho Login, Register, ForgotPassword */
+.auth-page-container {
+    background-color: #f9fafb;
+    min-height: 100vh;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-form-wrapper {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.auth-form-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Khoảng cách giữa các mục */
+}
+
+.auth-form-header {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    color: #111827;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px; /* Thêm margin */
+}
+
+.auth-form-description {
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.form-group { /* (Copy từ RegisterPage.css) */
+}
+
+.form-input { /* (Copy từ RegisterPage.css) */
+}
+
+.btn-primary { /* Nút chung */
+    width: 100%;
+    padding: 12px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #3b82f6; /* Xanh dương */
+}
+
+    .btn-primary:hover {
+        background-color: #2563eb;
+    }
+
+    .btn-primary:disabled {
+        background-color: #d1d5db;
+        cursor: not-allowed;
+    }
+
+.auth-link {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+    .auth-link a {
+        color: #3b82f6;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+        .auth-link a:hover {
+            text-decoration: underline;
+        }
+
+.error-message { /* (Copy từ RegisterPage.css) */
+}
+
+.success-message { /* (Copy từ RegisterPage.css) */
+}

@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;   
+  overflow-y: auto;      
+  background: white;
+  scroll-behavior: smooth;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.section-slide {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.7s ease, transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.section-slide.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeSlide {
+  animation: fadeSlide 0.4s ease forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.35s ease forwards;
+}
+
+/* Fade-out animation (when leaving page) */
+.page-fade-out {
+  animation: pageFadeOut 0.35s ease forwards;
+}
+
+@keyframes pageFadeOut {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(10px); }
+}
+
+/* Fade-in (fade-up) animation (when entering page) */
+.page-fade-in {
+  animation: pageFadeIn 0.4s ease forwards;
+}
+
+@keyframes pageFadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* Home Page fade-in */
+.home-fade-in {
+  animation: homeFadeIn 0.6s ease forwards;
+}
+
+@keyframes homeFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ✨ Sparkle keyframes */
+@keyframes sparkleFloat {
+  0% {
+    transform: translateY(0) scale(0.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-120vh) scale(1);
+    opacity: 0;
+  }
+}
+
+/* ✨ Sparkles */
+section .sparkle-container {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+}
+.sparkle-container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0; /* behind your dashboard content */
+}
+
+.sparkle {
+  position: absolute;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,192,203,0.8) 40%, rgba(255,182,193,0) 70%);
+  border-radius: 50%;
+  opacity: 0;
+  animation: sparkleFloat linear infinite;
+}
+
+/* ✨ Light Sweep Effect */
+.card-sweep {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-sweep::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-20deg);
+}
+
+.card-sweep:hover::after {
+  animation: sweep 0.7s ease-out forwards;
+}
+
+@keyframes sweep {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 150%;
+  }
+}
+@keyframes slideShow {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-slideShow {
+  width: 300%;
+  animation: slideShow 14s infinite ease-in-out;
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+@keyframes cardFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.card-animate {
+  animation: cardFadeUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+/* Put this in index.css */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background: #ec4899; /* pink-500 */
+  border-radius: 9999px;
+  border: 3px solid white;
+  box-shadow: 0 0 6px rgba(236, 72, 153, 0.6);
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  background: #ec4899;
+  border-radius: 9999px;
+  border: 3px solid white;
+  box-shadow: 0 0 6px rgba(236, 72, 153, 0.6);
+  cursor: pointer;
+}
+
+
+/* Playfair */
+@font-face {
+  font-family: "PlayfairLocal";
+  src: url("/src/assets/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Poppins */
+@font-face {
+  font-family: "PoppinsLocal";
+  src: url("/src/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Utility classes */
+.font-playfair-bold {
+  font-family: "PlayfairLocal", serif !important;
+}
+
+.font-poppins {
+  font-family: "PoppinsLocal", sans-serif !important;
+}
+* {
+  font-family: "PoppinsLocal", sans-serif !important;
+}

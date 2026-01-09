@@ -1,0 +1,12 @@
+ADMIN:
+		admin@java-florist.com
+		Admin@123!#
+	PARTNER: 
+		dl.partner@javaflorist.com
+		Partner@123
+	USER:
+		thantheloc@gmail.com
+		Anhloc1989@
+	Paypal Account: 
+		sb-nhzy447676532@personal.example.com
+		mzS9bH)7

@@ -1,0 +1,100 @@
+﻿.approval-container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.approval-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.loading-message,
+.error-message {
+    padding: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6b7280;
+}
+
+.error-message {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.approval-table {
+    min-width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+    .approval-table thead {
+        background-color: #f3f4f6;
+    }
+
+    .approval-table th,
+    .approval-table td {
+        padding: 16px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .approval-table th {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #4b5563;
+    }
+
+    .approval-table td {
+        color: #374151;
+        font-size: 0.875rem;
+    }
+
+/* Nút Actions */
+.actions-cell {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-approve {
+    padding: 4px 12px;
+    background-color: #22c55e; /* Xanh lá */
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+    .btn-approve:hover {
+        background-color: #16a34a;
+    }
+
+    .btn-approve:disabled,
+    .btn-reject:disabled {
+        background-color: #d1d5db;
+        cursor: not-allowed;
+    }
+
+.btn-reject {
+    padding: 4px 12px;
+    background-color: #ef4444; /* Đỏ */
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+    .btn-reject:hover {
+        background-color: #dc2626;
+    }

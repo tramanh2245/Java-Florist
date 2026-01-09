@@ -1,0 +1,6 @@
+@JavaFloristApi_HostAddress = http://localhost:5088
+
+GET {{JavaFloristApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
