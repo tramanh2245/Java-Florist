@@ -36,10 +36,9 @@ To expand its business, the shop develops a website for online flower ordering a
 ## 📂 Project Structure
 
 Group1 - Java Florist
-│
-├── db → Database files (SQL, backup, data)
-├── doc → Project documents and user guides
-└── src → Application source code
+├── db - Database files (SQL scripts, backups, sample data)
+├── doc - Project documents and user guides
+└── src - Application source code
 
 ---
 
