@@ -1,6 +1,4 @@
-from pathlib import Path
-
-content = """# 🌸 Java Florist
+# 🌸 Java Florist
 
 ## 📌 Project Information
 - **Supervisor:** Mr. Hoang Duc Quang  
