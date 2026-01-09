@@ -48,8 +48,5 @@ Group1 - Java Florist
 2. Open project in **src** using NetBeans or IntelliJ  
 3. Configure database connection  
 4. Run the project  
-"""
 
-path = "/mnt/data/README.md"
-Path(path).write_text(content, encoding="utf-8")
-path
+
